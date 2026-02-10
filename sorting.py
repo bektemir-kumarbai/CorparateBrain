@@ -1,10 +1,10 @@
 import random
 
 def cocktail_sort(arr: list) -> list:
-    n = len(arr)
-    left = 0
-    right = n - 1
-    pointer = right
+    n: int = len(arr)
+    left: int = 0
+    right: int = n - 1
+    pointer: int = right
 
     while left < right:
         for i in range(left, right):
